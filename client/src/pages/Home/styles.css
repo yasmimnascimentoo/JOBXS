@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,200&display=swap');
+
+*{
+    background-color:#000;
+}
+
+a.home {
+    float: right;
+    padding-right: .5em;
+    padding-left: .5em;
+    margin: 0 34px;
+    color: #E79FB2;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: color 0.5s ease;
+    position: relative;
+    display: block;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50;
+}
+
+
+a.home:hover {
+    color: #51B7CE;
+}
+
+
+a.curriculo {
+    float: right;
+    padding-right: .5em;
+    padding-left: .5em;
+    margin: 0 34px;
+    color: #E79FB2;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: color 0.5s ease;
+    position: relative;
+    display: block;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    padding: 0.5em 1em;
+    font-size: 50;
+}
+
+
+a.curriculo:hover {
+    color: #51B7CE;
+}
+
+
+a.sobre {
+    float: right;
+    padding-right: .5em;
+    padding-left: .5em;
+    margin: 0 34px;
+    color: #E79FB2;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: color 0.6s ease;
+    position: relative;
+    display: block;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50;
+}
+
+
+a.sobre:hover {
+    color: #51B7CE;
+}
+
+a.contato {
+    float: right;
+    padding-right: .5em;
+    padding-left: .5em;
+    margin: 0 34px;
+    color: #E79FB2;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: color 0.6s ease;
+    position: relative;
+    display: block;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50;
+}
+
+
+a.contato:hover {
+    color: #51B7CE;
+}
+
+
+.Textos h1 {
+    font-size: 46px;
+    margin-top: 2em ;
+    margin-left: 50px;
+    color: #fff;
+    text-align: center;
+    margin: 5;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Textos p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    font-size: 17px;
+    margin-top: 0.50em;
+    margin-left: 50px;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.invisivel h1 {
+    margin-top: 5em;
+    color: #000;
+}
+
+hr {
+    background-color: #51B7CE;
+    border-width: 0px;
+}
+
+.footer {
+    padding: 100px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: #000;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.fade-in {
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.footer h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 0 0.5rem 0;
+    color: #fff;
+}
+
+.dados h4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dados p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #fff;
+}
+
+
+.contatos a.email {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #777777;
+    text-decoration: none;
+}
+
